@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest News Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>📰 Latest News Hub</h1>
+            <p>Stay informed and join the conversation</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#news">Home</a></li>
+            <li><a href="#comments">Comments</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="news-section" id="news">
+            <h2>Top Stories</h2>
+            <article class="news-item">
+                <h3>Tech Breakthroughs 2024</h3>
+                <p>The tech industry has made significant strides this year...</p>
+                <button class="read-more">Read More</button>
+            </article>
+            <article class="news-item">
+                <h3>Climate Change Update</h3>
+                <p>Experts report on the newest data regarding global climate trends...</p>
+                <button class="read-more">Read More</button>
+            </article>
+            <!-- Additional news articles -->
+        </section>
+
+        <section class="comment-section" id="comments">
+            <h2>Leave Your Comment</h2>
+            <div id="comments-container">
+                <!-- Comments will appear here -->
+            </div>
+            <form id="comment-form">
+                <textarea id="comment-input" placeholder="Leave a comment..." required></textarea>
+                <button type="submit">Post Comment</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Latest News Hub. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
